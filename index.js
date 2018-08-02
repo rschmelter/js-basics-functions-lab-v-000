@@ -24,8 +24,7 @@ function calculatesFarePrice (start, destination) {
   if (distance <= 400) {
     return 0;
   } else if (distance > 400 && distance <= 2000) {
-    let fare = .02 * distance = 8;
-    return fare;
+    return .02 * distance;
   } else if (distance > 2000 && distance < 2500) {
     return 25;
   } else {
